@@ -51,12 +51,12 @@
     },
     "BOT_NAME": {
       "description": "Name for your bot",
-      "value": "BWM-XMD",
+      "value": "WHATSAPP BOT",
       "required": false
     },
     "BOT_URL": {
       "description": "Image or video url for your bot menu",
-      "value": "https://url.bwmxmd.online/Adams.zwu780jq.jpg,https://url.bwmxmd.online/Adams.dlmegzh8.mp4",
+      "value": "https://files.catbox.moe/4n1tap.jpg,https://files.catbox.moe/rxwloa.jpeg",
       "required": false
     },
     "PUBLIC_MODE": {
