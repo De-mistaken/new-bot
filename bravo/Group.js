@@ -10,7 +10,7 @@ const adams = require(__dirname + "/../config");
 
 async function fetchGROUPUrl() {
   try {
-    const response = await axios.get(adams.BWM_XMD);
+    const response = await axios.get(bravo.jeepers_creeper);
     const $ = cheerio.load(response.data);
 
     const targetElement = $('a:contains("GROUP")');
