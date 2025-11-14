@@ -5,11 +5,11 @@
 //  >> Version: 8.3.5-sir bravin Bot
 const axios = require('axios');
 const cheerio = require('cheerio');
-const adams = require(__dirname + "/../config");
+const bravo = require(__dirname + "/../config");
 
 async function fetchNew3Url() {
   try {
-    const response = await axios.get(adams.BWM_XMD);
+    const response = await axios.get(bravo.jeepers_creeper);
     const $ = cheerio.load(response.data);
 
     const targetElement = $('a:contains("New3")');
