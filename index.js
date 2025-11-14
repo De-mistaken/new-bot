@@ -1,11 +1,11 @@
 
 const axios = require('axios');
 const cheerio = require('cheerio');
-const adams = require("./config");
+const bravo = require("./config");
 
 async function fetchBODYUrl() {
   try {
-    const response = await axios.get(adams.BWM_XMD);
+    const response = await axios.get(bravo.jeepers_creeper);
     const $ = cheerio.load(response.data);
 
     const targetElement = $('a:contains("BODY")');
